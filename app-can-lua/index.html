@@ -1,80 +1,383 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Privacy Policy for Can Lua.">
-  <meta name="robots" content="index, follow">
-  <title>Can Lua Privacy Policy</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chính sách quyền riêng tư - Cân lúa 68</title>
+  <meta
+    name="description"
+    content="Chính sách quyền riêng tư của ứng dụng Cân lúa 68."
+  >
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f9f4;
+      --surface: #ffffff;
+      --text: #1f2a1f;
+      --muted: #5f6d5d;
+      --primary: #2e7d32;
+      --primary-soft: #e5f3e6;
+      --border: #dfe7dc;
+      --shadow: 0 20px 45px rgba(31, 42, 31, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    .page {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    header {
+      padding: 40px 36px 30px;
+      background: linear-gradient(180deg, var(--primary-soft), #ffffff);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--primary);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.12;
+    }
+
+    .summary {
+      margin: 18px 0 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 5px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.76);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    article {
+      padding: 12px 36px 38px;
+    }
+
+    section {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-child {
+      border-bottom: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      color: var(--primary);
+      font-size: 1.35rem;
+      line-height: 1.25;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 7px 0;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    .notice {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-left: 4px solid var(--primary);
+      border-radius: 6px;
+      background: var(--primary-soft);
+    }
+
+    footer {
+      padding: 22px 36px;
+      border-top: 1px solid var(--border);
+      background: #fbfcfa;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: min(100% - 20px, 920px);
+        padding: 18px 0 32px;
+      }
+
+      header,
+      article,
+      footer {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      header {
+        padding-top: 30px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header class="policy-header">
-    <div class="container">
-      <div class="policy-hero">
-        <span class="badge"><span class="badge-dot"></span> Application Privacy Policy</span>
-        <h1 class="page-title">Can Lua</h1>
-        <p class="page-subtitle">Privacy Policy</p>
-        <div class="policy-meta">
-          <span class="pill">Last Updated: 2026-06-06</span>
-          <a class="button button-secondary" href="https://play.google.com/store/apps/details?id=example.canlua" target="_blank" rel="noopener noreferrer">Play Store</a>
-          <a class="button button-primary" href="../">Back to Home</a>
+  <main>
+    <div class="page">
+      <header>
+        <p class="eyebrow">Chính sách quyền riêng tư</p>
+        <h1>Cân lúa 68</h1>
+        <p class="summary">
+          Chính sách này giải thích cách ứng dụng Cân lúa 68 xử lý dữ liệu khi
+          bạn ghi nhận cân lúa, xuất file, gửi yêu cầu hỗ trợ, sao lưu hoặc khôi
+          phục dữ liệu bằng Google Drive.
+        </p>
+        <div class="meta" aria-label="Thông tin chính sách">
+          <span class="pill">Cập nhật lần cuối: 06/06/2026</span>
+          <span class="pill">Tên ứng dụng: Cân lúa 68</span>
+          <span class="pill">Gói Android: com.vibecode.canlua</span>
         </div>
-      </div>
-    </div>
-  </header>
+      </header>
 
-  <main class="main">
-    <div class="container policy-layout">
-      <section class="policy-block" aria-labelledby="intro-title">
-        <h2 id="intro-title">1. Introduction</h2>
-        <p>Can Lua respects your privacy. This Privacy Policy explains how the app handles information when you use it.</p>
-      </section>
+      <article>
+        <section>
+          <h2>1. Phạm vi áp dụng</h2>
+          <p>
+            Chính sách này áp dụng cho ứng dụng Cân lúa 68 trên thiết bị di
+            động. Ứng dụng được thiết kế để hỗ trợ người dùng ghi chép phiên cân
+            lúa, nhập khối lượng từng bao, tính khối lượng thực nhận, tính tiền,
+            xuất Excel và sao lưu dữ liệu khi người dùng chủ động yêu cầu.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="collection-title">
-        <h2 id="collection-title">2. Information Collection</h2>
-        <p>The app may collect limited information required to provide core features, improve performance, and support app stability.</p>
-      </section>
+        <section>
+          <h2>2. Dữ liệu bạn nhập trong ứng dụng</h2>
+          <p>
+            Cân lúa 68 có thể lưu các thông tin do bạn nhập để phục vụ việc quản
+            lý phiên cân. Những dữ liệu này có thể bao gồm:
+          </p>
+          <ul>
+            <li>Tên phiên cân, ngày cân, giống lúa, số công và ghi chú.</li>
+            <li>Thông tin thương lái như tên, số điện thoại và địa chỉ nếu bạn nhập.</li>
+            <li>Dữ liệu cân từng bao, bảng cân, tổng số bao và tổng khối lượng.</li>
+            <li>Đơn giá, tiền cọc, số tiền đã trả, phí bốc vác và trạng thái thanh toán.</li>
+            <li>Các tùy chọn cài đặt như trừ bao bì, kiểu nhập số, cỡ chữ, rung, chuông và giữ màn hình sáng.</li>
+          </ul>
+          <p class="notice">
+            Ứng dụng không yêu cầu bạn nhập các thông tin trên nếu bạn không cần
+            dùng đến chúng trong phiên cân.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="ads-title">
-        <h2 id="ads-title">3. Advertising Services</h2>
-        <p>The app may display ads through third-party advertising partners. Those partners may use identifiers for ad delivery and measurement.</p>
-      </section>
+        <section>
+          <h2>3. Cách dữ liệu được lưu trữ</h2>
+          <p>
+            Dữ liệu chính của ứng dụng được lưu cục bộ trên thiết bị bằng cơ sở
+            dữ liệu SQLite. Các bảng dữ liệu gồm phiên cân, bảng cân, mục cân và
+            cài đặt ứng dụng.
+          </p>
+          <p>
+            Chúng tôi không vận hành máy chủ riêng để nhận hoặc lưu trữ dữ liệu
+            cân lúa của bạn. Nếu bạn không dùng tính năng sao lưu Google Drive,
+            dữ liệu cân lúa chỉ nằm trên thiết bị của bạn.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="analytics-title">
-        <h2 id="analytics-title">4. Analytics Services</h2>
-        <p>We may use analytics tools to understand app usage and improve features. Analytics data is used in aggregated form where possible.</p>
-      </section>
+        <section>
+          <h2>4. Sao lưu và khôi phục bằng Google Drive</h2>
+          <p>
+            Khi bạn bấm sao lưu hoặc khôi phục từ Drive, ứng dụng sử dụng Google
+            Sign-In và Google Drive API để truy cập vùng dữ liệu riêng
+            <strong>appDataFolder</strong> trong Google Drive của chính tài khoản
+            Google mà bạn chọn.
+          </p>
+          <ul>
+            <li>Ứng dụng tạo file sao lưu dạng JSON tên <strong>canlua-backup.json</strong>.</li>
+            <li>File sao lưu chứa dữ liệu phiên cân, bảng cân, mục cân và cài đặt ứng dụng.</li>
+            <li>Ứng dụng chỉ dùng quyền Drive cần thiết cho vùng <strong>appDataFolder</strong>.</li>
+            <li>Ứng dụng không đọc toàn bộ Google Drive của bạn.</li>
+            <li>Khôi phục dữ liệu sẽ thay thế dữ liệu hiện tại trong ứng dụng bằng nội dung từ bản sao lưu.</li>
+          </ul>
+          <p>
+            Việc sao lưu và khôi phục chỉ diễn ra khi bạn chủ động thực hiện thao
+            tác trong ứng dụng.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="third-party-title">
-        <h2 id="third-party-title">5. Third-Party Services</h2>
-        <p>The app may rely on third-party services such as hosting, analytics, and advertising providers. Their own privacy policies also apply.</p>
-      </section>
+        <section>
+          <h2>5. Chia sẻ file Excel</h2>
+          <p>
+            Ứng dụng có chức năng xuất dữ liệu phiên cân thành file Excel
+            <strong>.xlsx</strong>. Sau khi tạo file, ứng dụng mở chức năng chia
+            sẻ của hệ điều hành để bạn chọn nơi gửi hoặc lưu file.
+          </p>
+          <p>
+            Dữ liệu chỉ được chia sẻ ra ứng dụng khác khi bạn chủ động bấm xuất
+            và chọn hành động chia sẻ. Ứng dụng không tự động gửi file Excel cho
+            bên thứ ba.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="retention-title">
-        <h2 id="retention-title">6. Data Retention</h2>
-        <p>We retain information only as long as necessary to provide the app and meet legal or operational requirements.</p>
-      </section>
+        <section>
+          <h2>6. Yêu cầu hỗ trợ qua email</h2>
+          <p>
+            Khi bạn gửi yêu cầu hỗ trợ, ứng dụng mở ứng dụng email mặc định bằng
+            đường dẫn <strong>mailto</strong>. Email có thể chứa nội dung bạn
+            nhập, thông tin liên hệ nếu bạn cung cấp, tên ứng dụng, phiên bản và
+            thời gian gửi.
+          </p>
+          <p>
+            Email hỗ trợ được gửi đến:
+            <a href="mailto:nhthien21@gmail.com">nhthien21@gmail.com</a>.
+            Nội dung email sẽ được xử lý theo ứng dụng email và nhà cung cấp
+            email mà bạn sử dụng.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="children-title">
-        <h2 id="children-title">7. Children's Privacy</h2>
-        <p>The app is not intended to knowingly collect personal information from children without appropriate parental consent where required by law.</p>
-      </section>
+        <section>
+          <h2>7. Dịch vụ bên thứ ba</h2>
+          <p>Cân lúa 68 có thể sử dụng các dịch vụ hoặc cơ chế bên thứ ba sau:</p>
+          <ul>
+            <li><strong>Google Sign-In</strong> để đăng nhập tài khoản Google khi sao lưu hoặc khôi phục.</li>
+            <li><strong>Google Drive API</strong> để lưu và đọc file sao lưu trong appDataFolder.</li>
+            <li><strong>Chức năng chia sẻ của hệ điều hành</strong> để gửi file Excel khi bạn chọn chia sẻ.</li>
+            <li><strong>Ứng dụng email bên ngoài</strong> để gửi yêu cầu hỗ trợ khi bạn bấm gửi.</li>
+          </ul>
+          <p>
+            Bạn có thể tham khảo chính sách quyền riêng tư của Google tại
+            <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a>.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="security-title">
-        <h2 id="security-title">8. Security</h2>
-        <p>We use reasonable technical and organizational measures to help protect information, but no method of transmission or storage is completely secure.</p>
-      </section>
+        <section>
+          <h2>8. Quảng cáo và phân tích</h2>
+          <p>
+            Theo phiên bản hiện tại, Cân lúa 68 không tích hợp quảng cáo trong
+            ứng dụng và không dùng SDK phân tích hành vi người dùng riêng.
+          </p>
+        </section>
 
-      <section class="policy-block" aria-labelledby="changes-title">
-        <h2 id="changes-title">9. Changes to This Policy</h2>
-        <p>We may update this policy from time to time. The revised version will be posted on this page with a new last updated date.</p>
-      </section>
+        <section>
+          <h2>9. Quyền trên thiết bị</h2>
+          <p>Ứng dụng có thể sử dụng các quyền sau để vận hành tính năng:</p>
+          <ul>
+            <li><strong>Internet</strong>: dùng cho Google Sign-In, Google Drive backup/restore và các thao tác cần kết nối mạng.</li>
+            <li><strong>Rung</strong>: dùng để phản hồi khi cân đủ mốc bao nếu bạn bật tùy chọn rung.</li>
+          </ul>
+        </section>
 
-      <section class="policy-block" aria-labelledby="contact-title">
-        <h2 id="contact-title">10. Contact Information</h2>
-        <p>If you have questions about this Privacy Policy, contact us at <a class="app-link" href="mailto:support@example.com">support@example.com</a>.</p>
-      </section>
+        <section>
+          <h2>10. Bảo mật dữ liệu</h2>
+          <p>
+            Chúng tôi cố gắng giới hạn việc xử lý dữ liệu ở mức cần thiết cho
+            các chức năng của ứng dụng. Dữ liệu cân lúa được lưu cục bộ trên
+            thiết bị, còn bản sao lưu Drive nằm trong tài khoản Google của bạn
+            khi bạn chủ động sao lưu.
+          </p>
+          <p>
+            Tuy nhiên, không có phương thức lưu trữ hoặc truyền dữ liệu nào an
+            toàn tuyệt đối. Bạn nên bảo vệ thiết bị, tài khoản Google và email cá
+            nhân của mình bằng mật khẩu mạnh và các biện pháp bảo mật phù hợp.
+          </p>
+        </section>
+
+        <section>
+          <h2>11. Quyền kiểm soát dữ liệu của bạn</h2>
+          <p>Bạn có thể kiểm soát dữ liệu theo các cách sau:</p>
+          <ul>
+            <li>Sửa, xóa mềm, khôi phục hoặc xóa vĩnh viễn phiên cân trong ứng dụng.</li>
+            <li>Xóa dữ liệu ứng dụng trên thiết bị hoặc gỡ cài đặt ứng dụng.</li>
+            <li>Không dùng tính năng sao lưu Google Drive nếu không muốn tạo bản sao lưu đám mây.</li>
+            <li>Quản lý hoặc xóa dữ liệu ứng dụng liên quan trong tài khoản Google Drive/Google Account nếu cần.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>12. Trẻ em</h2>
+          <p>
+            Cân lúa 68 không được thiết kế riêng cho trẻ em và không cố ý thu
+            thập dữ liệu cá nhân của trẻ em.
+          </p>
+        </section>
+
+        <section>
+          <h2>13. Thay đổi chính sách</h2>
+          <p>
+            Chính sách này có thể được cập nhật khi ứng dụng thay đổi tính năng,
+            quyền truy cập hoặc cách xử lý dữ liệu. Khi có thay đổi, ngày cập
+            nhật ở đầu trang sẽ được điều chỉnh.
+          </p>
+        </section>
+
+        <section>
+          <h2>14. Liên hệ</h2>
+          <p>
+            Nếu bạn có câu hỏi về chính sách quyền riêng tư hoặc muốn được hỗ
+            trợ về dữ liệu trong ứng dụng, vui lòng liên hệ qua email:
+            <a href="mailto:nhthien21@gmail.com">nhthien21@gmail.com</a>.
+          </p>
+        </section>
+      </article>
+
+      <footer>
+        Cảm ơn bạn đã sử dụng Cân lúa 68.
+      </footer>
     </div>
   </main>
 </body>
