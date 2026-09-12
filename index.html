@@ -3,44 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Privacy policy hub for multiple mobile applications hosted on GitHub Pages.">
+  <meta name="description" content="Official homepage of CanLua. Learn about the application, Google Sign-In data usage, and privacy policy.">
   <meta name="robots" content="index, follow">
-  <title>Privacy Policies</title>
+  <meta property="og:title" content="CanLua - Official App Homepage">
+  <meta property="og:description" content="Learn about CanLua, its Google Sign-In and Google Drive data usage, and its privacy policy.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nhthien68.github.io/privacy-policy/">
+  <title>CanLua - Official App Homepage</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <section class="hero" aria-labelledby="home-title">
-        <span class="badge"><span class="badge-dot"></span> Privacy Policy Hub</span>
+        <span class="badge"><span class="badge-dot"></span> Official App Homepage</span>
         <div>
-          <h1 id="home-title">Privacy Policies</h1>
-          <p>Choose an application below to open its dedicated privacy policy page. Each app has its own stable URL for Google Play Console and user support.</p>
+          <h1 id="home-title">CanLua</h1>
+          <p>
+            CanLua is a mobile application for recording rice-weighing sessions,
+            calculating received weight and payment amounts, and exporting session
+            data to Excel. Your main weighing data is stored locally on your device.
+          </p>
         </div>
         <div class="hero-actions">
-          <a class="button button-primary" href="#apps">View Apps</a>
-          <a class="button button-secondary" href="README.md">Setup Guide</a>
+          <a class="button button-primary" href="https://nhthien68.github.io/privacy-policy/app-can-lua/">View CanLua Privacy Policy</a>
+          <a class="button button-secondary" href="#features">Explore CanLua</a>
         </div>
+        <p class="section-note">This public homepage can be viewed without signing in.</p>
       </section>
     </div>
   </header>
 
   <main class="main">
     <div class="container">
-      <section id="apps" class="section section-card" aria-labelledby="apps-title">
+      <section id="features" class="section section-card" aria-labelledby="features-title">
         <div class="section-header">
           <div>
-            <h2 id="apps-title" class="section-title">Applications</h2>
-            <p class="section-note">Each page is a standalone privacy policy URL.</p>
+            <h2 id="features-title" class="section-title">What CanLua does</h2>
+            <p class="section-note">Tools for managing rice-weighing records from a mobile device.</p>
           </div>
-          <span class="pill">Responsive • SEO friendly</span>
+        </div>
+
+        <div class="app-grid">
+          <article class="app-card">
+            <div>
+              <h2>Record weighing sessions</h2>
+              <p>Enter bag weights and keep session details, notes, rice variety, trader information, and weighing records together.</p>
+            </div>
+          </article>
+
+          <article class="app-card">
+            <div>
+              <h2>Calculate totals</h2>
+              <p>Calculate received weight, bag totals, prices, deposits, paid amounts, handling fees, and payment status.</p>
+            </div>
+          </article>
+
+          <article class="app-card">
+            <div>
+              <h2>Export and back up</h2>
+              <p>Export a weighing session as an Excel file, or manually back up and restore app data through Google Drive.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-card" aria-labelledby="google-data-title">
+        <div class="section-header">
+          <div>
+            <h2 id="google-data-title" class="section-title">Google Sign-In &amp; Data Usage</h2>
+            <p class="section-note">Google access is used only when you choose to back up or restore data.</p>
+          </div>
+          <span class="pill">User initiated</span>
+        </div>
+
+        <div class="policy-layout">
+          <article class="policy-block">
+            <h2>Why CanLua uses Google Sign-In</h2>
+            <p>
+              CanLua uses Google Sign-In to let you select and authorize your Google
+              account for the optional Google Drive backup and restore feature. You
+              can use CanLua's core weighing features without signing in to Google.
+            </p>
+          </article>
+
+          <article class="policy-block">
+            <h2>Google Drive data requested</h2>
+            <p>
+              When you start a backup or restore, CanLua uses the Google Drive API to
+              create or read <strong>canlua-backup.json</strong> in the private
+              <strong>appDataFolder</strong> area for CanLua. The backup may contain
+              weighing sessions, weighing tables, individual weight entries, and app settings.
+            </p>
+            <p>
+              CanLua requests access only to its app-specific Drive data area. It does
+              not read all files in your Google Drive, and it does not access Gmail or
+              Google Calendar. Backup and restore occur only after you request them in the app.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-card" aria-labelledby="privacy-title">
+        <div class="section-header">
+          <div>
+            <h2 id="privacy-title" class="section-title">CanLua Privacy</h2>
+            <p class="section-note">Read how CanLua stores, uses, shares, and protects app data.</p>
+          </div>
+          <a class="button button-primary" href="https://nhthien68.github.io/privacy-policy/app-can-lua/">View CanLua Privacy Policy</a>
+        </div>
+      </section>
+
+      <section class="section section-card" aria-labelledby="other-apps-title">
+        <div class="section-header">
+          <div>
+            <h2 id="other-apps-title" class="section-title">Other Application Privacy Policies</h2>
+            <p class="section-note">Privacy information for other applications hosted on this website.</p>
+          </div>
         </div>
 
         <div class="app-grid">
           <article class="app-card">
             <div>
               <h2>Quay So</h2>
-              <p>Privacy policy page for the Quay So application.</p>
+              <p>View the dedicated privacy policy for the Quay So application.</p>
             </div>
             <div class="app-card-footer">
               <span class="pill">/app-quay-so/</span>
@@ -50,19 +136,8 @@
 
           <article class="app-card">
             <div>
-              <h2>Can Lua</h2>
-              <p>Privacy policy page for the Can Lua application.</p>
-            </div>
-            <div class="app-card-footer">
-              <span class="pill">/app-can-lua/</span>
-              <a class="app-link" href="app-can-lua/">Open policy</a>
-            </div>
-          </article>
-
-          <article class="app-card">
-            <div>
               <h2>Battery Alert</h2>
-              <p>Privacy policy page for the Battery Alert application.</p>
+              <p>View the dedicated privacy policy for the Battery Alert application.</p>
             </div>
             <div class="app-card-footer">
               <span class="pill">/app-battery-alert/</span>
@@ -77,8 +152,12 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-inner">
-        <span>GitHub Pages ready.</span>
-        <span>Repository: privacy-policy</span>
+        <span>CanLua</span>
+        <span>
+          <a class="app-link" href="https://nhthien68.github.io/privacy-policy/app-can-lua/">Privacy Policy</a>
+          &nbsp;&middot;&nbsp;
+          <a class="app-link" href="mailto:nhthien21@gmail.com">Support</a>
+        </span>
       </div>
     </div>
   </footer>
