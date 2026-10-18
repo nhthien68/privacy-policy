@@ -27,6 +27,7 @@ https://<github-username>.github.io/privacy-policy/
 - Quay So: `https://<github-username>.github.io/privacy-policy/app-quay-so/`
 - Can Lua: `https://<github-username>.github.io/privacy-policy/app-can-lua/`
 - Battery Alert: `https://<github-username>.github.io/privacy-policy/app-battery-alert/`
+- Quản lý nhà trọ 68 (Motel): `https://<github-username>.github.io/privacy-policy/app-motel/`
 
 ## Adding New Apps
 
